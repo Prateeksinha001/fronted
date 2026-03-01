@@ -47,7 +47,7 @@ const PII_REGEX = {
 };
 
 const INITIAL_MESSAGES: Message[] = [
-  { id: 1, role: 'bot', text: 'SYSTEM INITIALIZED. NEUROCHAT FRAMEWORK V0.1 ONLINE.', timestamp: '22:57:01', badges: ['FRAMEWORK'] },
+  { id: 1, role: 'bot', text: 'SYSTEM INITIALIZED. ETHOSAI FRAMEWORK V0.1 ONLINE.', timestamp: '22:57:01', badges: ['FRAMEWORK'] },
   { id: 2, role: 'user', text: 'Hello, I need to test the PII detection system. My email is test@example.com.', timestamp: '22:57:15', badges: ['PII DETECTED'] },
   { id: 3, role: 'bot', text: 'PII DETECTED IN MESSAGE #2. REDACTION PROTOCOLS APPLIED. COMPLIANCE SCORE: 98%.', timestamp: '22:57:16', badges: ['COMPLIANT'] },
 ];
@@ -293,7 +293,7 @@ export default function App() {
           </div>
           <div className="flex flex-col">
             <h1 className="font-['Syne'] text-xl font-extrabold bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent leading-none">
-              NeuroChat
+              EthosAI
             </h1>
             <span className="text-[10px] text-cyan-400/60 font-bold tracking-widest mt-1">
               FRAMEWORK v0.1 <span className="bg-cyan-400/10 px-1 rounded">BETA</span>
